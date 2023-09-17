@@ -1,0 +1,13 @@
+schedule sleep 80 80
+schedule breakfast 90 5
+run 85
+schedule email 100 20
+run 100
+schedule dinner 190 10
+schedule lunch 130 5
+schedule exercise 180 20
+schedule class 150 12
+schedule study 120 10
+schedule studyAgain 240 30
+run 230
+run 240

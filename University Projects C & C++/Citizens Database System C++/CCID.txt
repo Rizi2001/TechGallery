@@ -1,0 +1,10 @@
+3740 murder 100 years in prison -
+7183 robbery 2 years in prison 20000
+5742 kidnapping 5 years in prison 15000
+9662 burglary 6 years in prison 10000
+6480 shoplifting 1 year in prison -
+7098 burglary 2 years in prison 50000
+8943 shoplifting 1 year in prison -
+9177 murder 25 years in prison 500
+9030 shoplifting 1 year in prison -
+5960 burglary 6 years in prison 7000
