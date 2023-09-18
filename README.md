@@ -4,7 +4,7 @@ Welcome to Tech Gallery, a centralized developer repository where I showcase a s
 
 ## Project Categories
 
-- [BERT Text Classification Model Fine-Tuning for Q&A]
+- [BERT Text Classification Model Fine-Tuning for Q&A Chat Bot]
 	- Fine-Tuned BERT (distilbert-base-uncased) model for text classification. The data consisted of 500 questions and its answers. 5 variations of each question were generated and assigned to a class. The total data having more than 3000 questions was divided into 650+ classes. This data was used to fine-tune and validate the BERT model to classify the question to a perticular class, returning the answer of that class would complete the Chat Bot functionality.
 
 - [Bitcoin Prediction Using LDA Topic Modelling]
