@@ -10,11 +10,11 @@ Welcome to Tech Gallery, a centralized developer repository where I showcase a s
 - [Chat Bot TextEmbeddings-Gecko@001 Model]
 	- Chat Bot using Google's Gecko@001 Model to generate Text Embeddings and using cosine similarity, built a Chat Bot.
 	
-- [Google Cloud Platform Enterprise Search Application]
-	- Using Google Cloud's GenApp Builder Enterprise Search, made an application (FLASK) and tested a search engine on custom data.
-
-- [Google Cloud Platform Healthcare Natural Language API Application]
-	- Using Google Cloud's Healthcare API, developed a FLASK endpoint to generate medical codes (ICD10, RxNorm, UMLs etc.)
+- [Google Cloud Platform]
+	- Enterprise Search Application
+		- Using Google Cloud's GenApp Builder Enterprise Search, made an application (FLASK) and tested a search engine on custom data.
+	- Healthcare Natural Language API Application
+		- Using Google Cloud's Healthcare API, developed a FLASK endpoint to generate medical codes (ICD10, RxNorm, UMLs etc.)
 	
 - [Lang-Chain Vertex-AI Bigquery]
 	- Utilizing Lang-Chain (Text to SQL) for Big-query data using Vertex AI's Text-Bison Language Model.
