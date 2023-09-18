@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Google Enterprise Search</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 24px;
+            max-width: 600px;
+            width: 90%;
+        }
+
+        h1 {
+            margin-top: 0;
+            margin-bottom: 16px;
+            font-size: 28px;
+            color: #1c2129; /* New shade of blue */
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 16px;
+            font-size: 18px;
+            color: #333; /* Dark gray color for the tagline */
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        textarea {
+            resize: vertical;
+            overflow-y: hidden;
+            transition: height 0.2s;
+            margin-bottom: 8px;
+            width: 100%;
+            padding: 8px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            padding: 8px 16px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 8px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>FAQ Chat Bot</h1>
+        <p>Write your query here</p>
+        <form method="post" id="query_form">
+            <!-- Remove the action attribute to prevent default form submission -->
+
+            <!-- <label for="user_input">Enter your medical query:</label> -->
+            <textarea id="user_input" name="user_input" rows="5" placeholder="Ask your question here..."></textarea>
+            <button type="submit">See Results</button>
+        </form>
+        <div>
+            <h2>Search Response</h2>
+            <p id="model_response"></p>
+        </div>
+    </div>
+    <script>
+        document.getElementById('user_input').addEventListener('keydown', function (event) {
+            if (event.key === 'Enter' && !event.shiftKey) {
+                event.preventDefault(); // Prevent default form submission
+                submitForm();
+            }
+        });
+
+        document.getElementById('query_form').addEventListener('submit', function (event) {
+            event.preventDefault(); // Prevent default form submission
+            submitForm();
+        });
+
+        async function submitForm() {
+            const userInput = document.getElementById('user_input').value;
+            const response = await fetch('/get_response', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded'
+                },
+                body: `user_input=${encodeURIComponent(userInput)}`
+            });
+            const data = await response.text();
+            document.getElementById('model_response').textContent = data;
+        }
+    </script>
+</body>
+</html>

@@ -7,6 +7,18 @@ Welcome to Tech Gallery, a centralized developer repository where I showcase a s
 - [Bitcoin Prediction Using LDA Topic Modelling]
 	- Bitcoin price prediction using topic modelling on news to cater in the affect of news sentiment.
 
+- [Chat Bot TextEmbeddings-Gecko@001 Model]
+	- Chat Bot using Google's Gecko@001 Model to generate Text Embeddings and using cosine similarity, built a Chat Bot.
+	
+- [Google Cloud Platform Enterprise Search Application]
+	- Using Google Cloud's GenApp Builder Enterprise Search, made an application (FLASK) and tested a search engine on custom data.
+
+- [Google Cloud Platform Healthcare Natural Language API Application]
+	- Using Google Cloud's Healthcare API, developed a FLASK endpoint to generate medical codes (ICD10, RxNorm, UMLs etc.)
+	
+- [Lang-Chain Vertex-AI Bigquery]
+	- Utilizing Lang-Chain (Text to SQL) for Big-query data using Vertex AI's Text-Bison Language Model.
+
 - [Machine Learning Notebooks]
 	- Small Diverse ML Projects and algorithms implementation.
  
@@ -25,6 +37,11 @@ Welcome to Tech Gallery, a centralized developer repository where I showcase a s
 - [Web Scraping]
 	- Daraz.pk website's crawler collecting information about any given product
 	- MorningStar Financials web crawler to generate daily market reports
+	
+- [Whisper Speech to Text]
+	- Whisper model Speech to Text and conversion of audio files from OPUS to MP3.
+
+
 
 Feel free to explore each category to discover more about my projects and my journey as a developer.
 

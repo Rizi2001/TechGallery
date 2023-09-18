@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Healthcare NLP</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 24px;
+            max-width: 600px;
+            width: 90%;
+        }
+
+        h1 {
+            margin-top: 0;
+            margin-bottom: 16px;
+            font-size: 28px;
+            color: #1c2129; /* New shade of blue */
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 16px;
+            font-size: 18px;
+            color: #333; /* Dark gray color for the tagline */
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        textarea {
+            resize: vertical;
+            overflow-y: hidden;
+            transition: height 0.2s;
+            margin-bottom: 8px;
+            width: 100%;
+            padding: 8px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            padding: 8px 16px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 8px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<div class="container">
+    <h1>Google Healthcare NLP</h1>
+    <form method="POST">
+        <label for="doc_con">Enter Document Content:</label>
+        <textarea id="doc_con" name="doc_con" rows="4" cols="50">{{ doc_con }}</textarea>
+        <button type="submit">Analyze</button>
+    </form>
+
+    {% if type_con %}
+    <h1>Types and Content</h1>
+
+    <div>
+        {% for tc in type_con %}
+        <b><p>Type: {{ tc.get('act_type')|safe }}</p></b>
+        <p>Content: {{ tc.get('content')|safe }}</p></b> 
+        </br>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    {% if main_list %}
+    <h1>Analysis Result</h1>
+    <div>
+        {% for item in main_list %}
+        <b>{{ item.get('preferredTerm')|safe }}</b><br><br>
+
+        {% for i in item.get('vocabularyCodes') %}
+        <p>{{ i|safe }} </p>
+        {% endfor %}<br><br>
+        {% endfor %}
+    </div>
+    {% endif %}
+</div>
+
+
+</html>
