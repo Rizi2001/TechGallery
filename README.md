@@ -4,6 +4,9 @@ Welcome to Tech Gallery, a centralized developer repository where I showcase a s
 
 ## Project Categories
 
+- [BERT Text Classification Model Fine-Tuning for Q&A]
+	- Fine-Tuned BERT (distilbert-base-uncased) model for text classification. The data consisted of 500 questions and its answers. 5 variations of each question were generated and assigned to a class. The total data having more than 3000 questions was divided into 650+ classes. This data was used to fine-tune and validate the BERT model to classify the question to a perticular class, returning the answer of that class would complete the Chat Bot functionality.
+
 - [Bitcoin Prediction Using LDA Topic Modelling]
 	- Bitcoin price prediction using topic modelling on news to cater in the affect of news sentiment.
 
@@ -11,6 +14,8 @@ Welcome to Tech Gallery, a centralized developer repository where I showcase a s
 	- Chat Bot using Google's Gecko@001 Model to generate Text Embeddings and using cosine similarity, built a Chat Bot.
 	
 - [Google Cloud Platform]
+	- AI Doctor Vertex AI Chat-Bison Flask APP
+		- A simple chat model integrating GCP's Vertex AI Chat-Bison/Text-Bison LLM API with fixed guide prompt with user input to suggest home remedies for medical symptoms
 	- Enterprise Search Application
 		- Using Google Cloud's GenApp Builder Enterprise Search, made an application (FLASK) and tested a search engine on custom data.
 	- Healthcare Natural Language API Application
