@@ -6,7 +6,6 @@ from vertexai.preview.language_models import ChatModel, InputOutputTextPair
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "" #Replace with you GCP Service account credentials JSON file
 
 model = ChatModel.from_pretrained("chat-bison@001")
-#model = ChatModel.from_pretrained("text-bison@001") 
 
 def generate_variations_vertex(prompt):
 
@@ -17,13 +16,13 @@ def generate_variations_vertex(prompt):
 
     return (response.text)
 
-#prompt = "Write me two paragraphs on sexual orientation"
 
 
 # prompt="I have a stomach ache along with a on and off headache since yesterday. I'm drinking a lot of juices but they don't seem to help"
-
 #response=generate_variations_vertex(prompt)
 #print((response))
+
+
 
 # app = Flask(__name__)
 
