@@ -12,6 +12,7 @@ Welcome to Tech Gallery, a centralized developer repository where I showcase a s
 
 - [Chat Bot TextEmbeddings-Gecko@001 Model]
 	- Chat Bot using Google's Gecko@001 Model to generate Text Embeddings and using cosine similarity, built a Chat Bot.
+	- Evaluation mechanism for the chat bot by automatically generating test questions (variations of the original data) and giving the Chatbot's Response, Ground Truths and the accuracy score.
 	
 - [Google Cloud Platform]
 	- AI Doctor Vertex AI Chat-Bison Flask APP
