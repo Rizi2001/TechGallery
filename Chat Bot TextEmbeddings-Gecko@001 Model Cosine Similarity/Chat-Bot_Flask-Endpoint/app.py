@@ -10,7 +10,7 @@ from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "aiml-365220-7d5d084cd436.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "" #You GCP project credentials
 
 embedding_df = pd.read_csv("Question_Variations_Embeddings.csv")
 
