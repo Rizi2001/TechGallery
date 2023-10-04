@@ -32,6 +32,9 @@ Welcome to Tech Gallery, a centralized developer repository where I showcase a s
  
 - [Numpy, Pandas, Matplotlib]
 	- Data Visulization Notebooks and Guides.
+	
+- [OpenAI Image generation API]
+	- Interesting image generations with prompting the DALL E model
 
 - [Roman Urdu Natural Language Processing]
 	- Poetry Generation, Noisy Channel Spell Correction, and Transliteration. All in either Urdu or Roman Urdu.
