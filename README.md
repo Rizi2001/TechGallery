@@ -11,7 +11,7 @@ Welcome to Tech Gallery, a centralized developer repository where I showcase a s
 	- Bitcoin price prediction using topic modelling on news to cater in the affect of news sentiment.
 
 - [Chat Bot TextEmbeddings-Gecko@001 Model]
-	- Flask Application Endpoint to chat with the model on the front end.
+	- Flask Application Endpoint to use the chatbot on the front end.
 	- Chat Bot using Google's Gecko@001 Model to generate Text Embeddings and using cosine similarity, built a Chat Bot.
 	- Evaluation mechanism for the chat bot by automatically generating test questions (variations of the original data) and giving the Chatbot's Response, Ground Truths and the accuracy score.
 	
