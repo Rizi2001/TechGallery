@@ -13,6 +13,7 @@ Welcome to Tech Gallery, a centralized developer repository where I showcase a s
 - [Chat Bot TextEmbeddings-Gecko@001 Model]
 	- Flask Application Endpoint to use the chatbot on the front end. It uses a csv file containing the questions, answers and its generated embeddings which can be used for similarity comparison between the user input. It also stores logs for user input in the static directory.
 	- Chat Bot using Google's Gecko@001 Model to generate Text Embeddings and using cosine similarity, built a Chat Bot.
+	- Chat Bot 2.0 version using Google's Gecko@001 Model to generate Text Embeddings and using cosine similarity, suggests with related questions to questions which are not answered due to having less confidence score.
 	- Evaluation mechanism for the chat bot by automatically generating test questions (variations of the original data) and giving the Chatbot's Response, Ground Truths and the accuracy score.
 	
 	
