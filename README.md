@@ -49,6 +49,7 @@ Welcome to Tech Gallery, a centralized developer repository where I showcase a s
 
 - [Web Scraping]
 	- Daraz.pk website's crawler collecting information about any given product
+	- Google Images Crawler/scrapper to get Google Images URLS and download to view them. Using Selenium, Bs4 and SERP API (Crawling tool)
 	- MorningStar Financials web crawler to generate daily market reports
 	
 - [Whisper Speech Model]
