@@ -51,8 +51,11 @@ Welcome to Tech Gallery, a centralized developer repository where I showcase a s
 	- Daraz.pk website's crawler collecting information about any given product
 	- MorningStar Financials web crawler to generate daily market reports
 	
-- [Whisper Speech to Text]
-	- Whisper model Speech to Text and conversion of audio files from OPUS to MP3.
+- [Whisper Speech Model]
+	- OPUS to MP3 file format converter 
+	- Whisper_Base_Model_Language_Detection Notebook using log-Mel spectrogram
+	- Whisper model Speech to Text (Multiple models) 
+	- Sample Audio Mp3 file
 
 
 
