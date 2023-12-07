@@ -3,16 +3,16 @@ Welcome to Tech Gallery, a centralized developer repository where I showcase a s
 
 ## Repository Structure
 │
-├──Project Folder
-│	├──Code/Notebook
-│	├──...
-
-├──Project Folder
-│	├──Code/Notebook
-│	├──...
-│	├──...
-├──...
-│	├── ...
+├──Project Folder <br>
+│	├──Code/Notebook <br>
+│	├──... <br>
+│
+├──Project Folder <br>
+│	├──Code/Notebook <br>
+│	├──... <br>
+│	├──... <br>
+├──... <br>
+│	├── ...<br><br>
 
 
 ## Project Categories
