@@ -3,17 +3,17 @@ Welcome to Tech Gallery, a centralized developer repository where I showcase a s
 
 ## Repository Structure
 │
-├── BERT Text Classification Model Fine-Tuning for Q&A Chat Bot
-│   ├── Fine-Tuning BERT (distilbert-base-uncased) model for text classification
-│   │   ├── Notebook
-│   ├── ...
+├──BERT Text Classification Model Fine-Tuning for Q&A Chat Bot
+│	├──Fine-Tuning BERT (distilbert-base-uncased) model for text classification
+│	│	├──Notebook
+│	├──...
 
-├── Bitcoin Prediction Using LDA Topic Modelling
-│   ├── Notebook
-│   ├── List of Positive Words
-│   ├── ...
-├── ...
-│   ├── ...
+├──Bitcoin Prediction Using LDA Topic Modelling
+│	├──Notebook
+│	├──List of Positive Words
+│	├──...
+├──...
+│	├── ...
 
 
 ## Project Categories
