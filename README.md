@@ -3,6 +3,7 @@ Welcome to Tech Gallery, a centralized developer repository where I showcase a s
 
 ## Repository Structure
 <pre>
+Tech Gallery
 │
 ├──Project Folder
 │	├──Code/Notebook
