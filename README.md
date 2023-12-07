@@ -17,6 +17,8 @@ Welcome to Tech Gallery, a centralized developer repository where I showcase a s
 	- Evaluation mechanism for the chat bot by automatically generating test questions (variations of the original data) and giving the Chatbot's Response, Ground Truths and the accuracy score.
 	- Chat-Bot Embedding Data Updation notebook to incrementally increase the Chat-Bot's performance by updating its embedding dataset with updated embeddings of questions user asked but the chat bot didn't answer.
 	
+- [Comparsion of Whisper & Faster-Whisper STT]
+	- Notebook for Inference comparsion between OPEN AI's Whisper Large-V2 model and SYSTRAN's Faster-Whisper Large-V2 model, run locally. 
 	
 - [Google Cloud Platform]
 	- AI Doctor Vertex AI Chat-Bison Flask APP
@@ -25,7 +27,10 @@ Welcome to Tech Gallery, a centralized developer repository where I showcase a s
 		- Using Google Cloud's GenApp Builder Enterprise Search, made an application (FLASK) and tested a search engine on custom data.
 	- Healthcare Natural Language API Application
 		- Using Google Cloud's Healthcare API, developed a FLASK endpoint to generate medical codes (ICD10, RxNorm, UMLs etc.)
-	
+	- GCP Trancribe Streaming Audio & Infinite Transcription
+		- Using Google Cloud's Speech API, infinite real-time speech to text transcription of streaming audio via microphone using session management.
+		- Using Google Cloud's Speech API, real-time speech to text transcription of streaming audio via microphone for 305 seconds.
+		
 - [Lang-Chain Vertex-AI Bigquery]
 	- Utilizing Lang-Chain (Text to SQL) for Big-query data using Vertex AI's Text-Bison Language Model.
 
