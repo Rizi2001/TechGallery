@@ -36,7 +36,7 @@ Tech Gallery
 	- Notebook for Inference comparsion between OPEN AI's Whisper Large-V2 model and SYSTRAN's Faster-Whisper Large-V2 model, run locally. 
 	
 - [Faster_Whisper_STT_DJango_Service]
-	- Django Service/API which receives an audio (MP3/wav) with key 'file' and trasncribes the given audio file using SYSTRAN's Faster-Whisper. it returns the trasncription in string format.
+	- Django Service/API which receives an audio (MP3/wav) with key 'file' and trasncribes the given audio file using SYSTRAN's Faster-Whisper. It stores the received input audio in the /uploaded_files directory. It returns the trasncription in string format.
 	
 - [Google Cloud Platform]
 	- AI Doctor Vertex AI Chat-Bison Flask APP
