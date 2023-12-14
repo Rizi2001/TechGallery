@@ -39,13 +39,13 @@ Tech Gallery
 	- Django Service/API which receives an audio (MP3/wav) with key 'file' and trasncribes the given audio file using SYSTRAN's Faster-Whisper. It stores the received input audio in the /uploaded_files directory. It returns the trasncription in string format.
 	
 - **[Google Cloud Platform]**
-	- AI Doctor Vertex AI Chat-Bison Flask APP
+	- **AI Doctor Vertex AI Chat-Bison Flask APP**
 		- A simple chat model integrating GCP's Vertex AI Chat-Bison/Text-Bison LLM API with fixed guide prompt with user input to suggest home remedies for medical symptoms
-	- Enterprise Search Application
+	- **Enterprise Search Application**
 		- Using Google Cloud's GenApp Builder Enterprise Search, made an application (FLASK) and tested a search engine on custom data.
-	- Healthcare Natural Language API Application
+	- **Healthcare Natural Language API Application**
 		- Using Google Cloud's Healthcare API, developed a FLASK endpoint to generate medical codes (ICD10, RxNorm, UMLs etc.)
-	- GCP Trancribe Streaming Audio & Infinite Transcription
+	- **GCP Trancribe Streaming Audio & Infinite Transciption**
 		- Using Google Cloud's Speech API, infinite real-time speech to text transcription of streaming audio via microphone using session management.
 		- Using Google Cloud's Speech API, real-time speech to text transcription of streaming audio via microphone for 305 seconds.
 		
@@ -71,9 +71,9 @@ Tech Gallery
 	- Basic Gym Management System using Oracle SQL Server and PHP
 
 - **[Web Scraping]**
-	- Daraz.pk website's crawler collecting information about any given product
-	- Google Images Crawler/scrapper to get Google Images URLS and download to view them. Using Selenium, Bs4 and SERP API (Crawling tool)
-	- MorningStar Financials web crawler to generate daily market reports
+	- **Daraz.pk** website's crawler collecting information about any given product
+	- **Google Images** Crawler/scrapper to get Google Images URLS and download to view them. Using Selenium, Bs4 and SERP API (Crawling tool)
+	- **MorningStar Financials** web crawler to generate daily market reports
 	
 - **[Whisper Speech Model]**
 	- OPUS to MP3 file format converter 
