@@ -83,15 +83,8 @@ Tech Gallery
 
 
 
-Feel free to explore each category to discover more about my projects and my journey as a developer.
+Feel free to explore each category to discover more about my projects and my journey as a data scientist.
 
-
-## Let's Connect
-
-Thank you for visiting my portfolio. Let's build the future together, one line of code at a time.
-
-If you have questions, want to collaborate, or just chat about tech, I'm just a message away. Reach out to me on LinkedIn
-http://www.linkedin.com/in/rizi2001
 
 
 
