@@ -32,7 +32,7 @@ Tech Gallery
 	- Evaluation mechanism for the chat bot by automatically generating test questions (variations of the original data) and giving the Chatbot's Response, Ground Truths and the accuracy score.
 	- Chat-Bot Embedding Data Updation notebook to incrementally increase the Chat-Bot's performance by updating its embedding dataset with updated embeddings of questions user asked but the chat bot didn't answer.
 	
-- **[Comparsion of Whisper & Faster-Whisper STT]**
+- **[Comparision of Whisper & Faster-Whisper STT]**
 	- Notebook for Inference comparsion between OPEN AI's Whisper Large-V2 model and SYSTRAN's Faster-Whisper Large-V2 model, run locally. 
 	
 - **[Faster_Whisper_STT_DJango_Service]**
