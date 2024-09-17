@@ -1,0 +1,8 @@
+chromadb
+python-dotenv
+dspy-ai
+BeautifulSoup4
+langchain
+genai
+google-generativea
+sentence-transformers

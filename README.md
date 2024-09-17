@@ -34,6 +34,9 @@ Tech Gallery
 	
 - **[Comparision of Whisper & Faster-Whisper STT]**
 	- Notebook for Inference comparsion between OPEN AI's Whisper Large-V2 model and SYSTRAN's Faster-Whisper Large-V2 model, run locally. 
+
+- **[DSPy - Home Remedy Healthcare Assistant]
+	- Used DSPy to build an AI-driven health assistant with Zero-shot learning, RAG (Retrieval Augmented Generation), CoT (Chain of Thought) reasoning and Fine-Tuning making it to handle the health-related questions and provide home remedies for simple problems.git
 	
 - **[Faster_Whisper_STT_DJango_Service]**
 	- Django Service/API which receives an audio (MP3/wav) with key 'file' and trasncribes the given audio file using SYSTRAN's Faster-Whisper. It stores the received input audio in the /uploaded_files directory. It returns the trasncription in string format.

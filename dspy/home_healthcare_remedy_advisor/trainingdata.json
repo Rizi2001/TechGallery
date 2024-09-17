@@ -1,0 +1,17 @@
+{
+    "examples": [
+      {
+        "question": "What is a remedy for a sore throat?",
+        "answer": "Gargling with warm salt water can help soothe a sore throat."
+      },
+      {
+        "question": "How to relieve a headache naturally?",
+        "answer": "Applying a cold compress to your forehead or drinking ginger tea may help."
+      },
+      {
+        "question": "What can I do for indigestion?",
+        "answer": "Drinking a mixture of baking soda and water can relieve indigestion."
+      }
+    ]
+  }
+  
